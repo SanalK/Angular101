@@ -1,0 +1,19 @@
+<hr />
+    <h1>{{tutorialObject.title}}</h1>
+    <h2>{{tutorialObject.subTitle}}</h2>
+<a href="#/tutorialSecond">Tutorial Second</a>
+    <p> Number: {{2+2}}</p>
+    <p> String: {{tutorialObject.firstname + " "+ tutorialObject.lastname | uppercase }} </p>
+    <p><b> Binding: {{tutorialObject.bindOutput | currency :"#" :4}} </b></p>    
+    </body>
+    <label> First Name</label>
+    <input ng-model="tutorialObject.firstname ">
+    <br/>
+    <label> Last  Name</label>
+    <input ng-model="tutorialObject.lastname ">
+    <br/>
+    <button ng-click="timesTwo()">Multiply</button>
+    <br/>
+    <!-- <welcome-message></welcome-message> -->
+      <a href="#/">Tutorial First Page</a>
+     
